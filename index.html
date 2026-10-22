@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>RedFlag: The Scam Detective Game</title>
+  <meta name="description" content="Spot the scam before it spots you. A fast, swipeable game that trains everyone - kids to grandparents - to recognise phishing, fake deliveries, voice-clone calls and more. Plus a private, on-device message checker.">
+  <meta name="theme-color" content="#130f24">
+  <meta name="color-scheme" content="dark light">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="RedFlag">
+  <meta property="og:title" content="RedFlag: The Scam Detective Game">
+  <meta property="og:description" content="Spot the scam before it spots you. Can you beat my Scam IQ?">
+  <script>
+    /* PWA manifest only over http(s): browsers block it on file:// (CORS), which would log an error. */
+    if (/^https?:$/.test(location.protocol)) { var mf = document.createElement('link'); mf.rel = 'manifest'; mf.href = 'manifest.webmanifest'; document.head.appendChild(mf); }
+  </script>
+  <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+  <link rel="icon" type="image/svg+xml" href="icons/icon.svg">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Decorative desktop backdrop (the app itself is a phone-width column) -->
+  <div class="backdrop" aria-hidden="true">
+    <span class="bd-blob b1"></span><span class="bd-blob b2"></span><span class="bd-blob b3"></span>
+    <div class="bd-tagline"><strong>🚩 RedFlag</strong><span>Spot the scam before it spots you.</span></div>
+  </div>
+
+  <div id="app" class="app">
+    <main id="view" class="view" tabindex="-1"></main>
+
+    <nav id="tabbar" class="tabbar" aria-label="Main">
+      <button type="button" data-tab="home"><span aria-hidden="true">🏠</span><small>Play</small></button>
+      <button type="button" data-tab="check"><span aria-hidden="true">🛡️</span><small>Check</small></button>
+      <button type="button" data-tab="guide"><span aria-hidden="true">📚</span><small>Guide</small></button>
+      <button type="button" data-tab="profile"><span aria-hidden="true">🏅</span><small>Profile</small></button>
+    </nav>
+
+    <div id="overlay" class="overlay"></div>
+    <div id="toasts" class="toasts" aria-live="polite"></div>
+  </div>
+
+  <noscript><p style="padding:2rem;text-align:center">RedFlag needs JavaScript to run.</p></noscript>
+
+  <!--
+    Script order matters (classic scripts, one global: window.RedFlag).
+    core -> content -> systems -> analyzer -> ui -> game -> main
+  -->
+  <!-- core -->
+  <script src="js/core/namespace.js"></script>
+  <script src="js/core/rng.js"></script>
+  <script src="js/core/storage.js"></script>
+  <!-- content -->
+  <script src="js/content/brands.js"></script>
+  <script src="js/content/domains.js"></script>
+  <script src="js/content/taxonomy.js"></script>
+  <script src="js/content/templates-scam.js"></script>
+  <script src="js/content/templates-legit.js"></script>
+  <script src="js/content/generator.js"></script>
+  <script src="js/content/fieldguide.js"></script>
+  <script src="js/content/stories.js"></script>
+  <!-- systems -->
+  <script src="js/systems/settings.js"></script>
+  <script src="js/systems/audio.js"></script>
+  <script src="js/systems/feedback.js"></script>
+  <script src="js/systems/progress.js"></script>
+  <script src="js/systems/badges.js"></script>
+  <script src="js/systems/daily.js"></script>
+  <script src="js/systems/share.js"></script>
+  <!-- analyzer -->
+  <script src="js/analyzer/analyzer.js"></script>
+  <!-- ui -->
+  <script src="js/ui/dom.js"></script>
+  <script src="js/ui/fx.js"></script>
+  <script src="js/ui/cardview.js"></script>
+  <script src="js/ui/swipe.js"></script>
+  <script src="js/ui/onboarding.js"></script>
+  <script src="js/ui/home.js"></script>
+  <script src="js/ui/check.js"></script>
+  <script src="js/ui/guide.js"></script>
+  <script src="js/ui/profile.js"></script>
+  <script src="js/ui/settings.js"></script>
+  <!-- game modes -->
+  <script src="js/game/run.js"></script>
+  <script src="js/game/story.js"></script>
+  <script src="js/game/lookalike.js"></script>
+  <!-- boot -->
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2a1752"/>
+      <stop offset=".55" stop-color="#5a1645"/>
+      <stop offset="1" stop-color="#ff4d6d"/>
+    </linearGradient>
+    <linearGradient id="flag" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff7a59"/>
+      <stop offset="1" stop-color="#ff2d55"/>
+    </linearGradient>
+    <clipPath id="clip"><rect width="512" height="512" rx="112"/></clipPath>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <circle cx="400" cy="96" r="120" fill="#7c5cff" opacity=".35" clip-path="url(#clip)"/>
+  <!-- magnifying glass -->
+  <circle cx="226" cy="222" r="122" fill="#ffffff" opacity=".12"/>
+  <circle cx="226" cy="222" r="122" fill="none" stroke="#ffffff" stroke-width="30"/>
+  <path d="M316 312 L404 400" stroke="#ffffff" stroke-width="46" stroke-linecap="round"/>
+  <!-- red flag inside the lens -->
+  <path d="M190 150 V300" stroke="#ffffff" stroke-width="16" stroke-linecap="round"/>
+  <path d="M196 152 C236 136 262 170 300 158 V236 C262 248 236 214 196 230 Z" fill="url(#flag)"/>
+</svg>

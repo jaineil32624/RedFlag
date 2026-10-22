@@ -1,0 +1,22 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+
+# Node / Capacitor (if you wrap the app for Android)
+node_modules/
+android/
+ios/
+dist/
+*.log
+npm-debug.log*
+
+# Android signing material - never commit
+*.keystore
+*.jks
+*.aab
+*.apk
+key.properties
