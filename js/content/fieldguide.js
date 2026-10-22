@@ -63,7 +63,7 @@
       how: 'Buyers “overpay” with fake payments, push you to fake payment-app emails, or ask for a verification code. Sellers demand payment off-platform for items that never arrive.',
       flags: ['Overpayment + “send the difference”', 'Fake payment emails asking for fees', 'Won’t see the item / won’t meet', '“Friends & family” payments only', 'Asks for a code to “prove you’re real”'],
       todo: ['Use in-app checkout or meet in a public place', 'Check payments in the real app, not via email', 'Never share codes'] },
-    { id: 'qr', cat: 'qr', icon: '🔳', title: 'QR code scams (“quishing”)',
+    { id: 'qr', cat: 'qr', icon: '📷', title: 'QR code scams (“quishing”)',
       how: 'Fake QR stickers on parking meters, posters or unexpected mail lead to lookalike payment or login pages.',
       flags: ['Sticker placed over another code', 'Code in unexpected mail', 'The link preview isn’t the official domain'],
       todo: ['Check the preview link before opening', 'Use the official app or type the address', 'Report tampered codes to the operator'] },

@@ -48,7 +48,7 @@
         prompt, optsEl, why,
         h('div.ll-tip', { 'aria-hidden': 'true' }, [
           h('small', { text: 'HOW TO READ A LINK' }),
-          h('div.ll-url', null, [h('span.u-dim', { text: 'https://' }), h('span.u-sub', { text: 'login.' }), h('span.u-own', { text: 'novabank.com' }), h('span.u-dim', { text: '/account' })]),
+          h('div.ll-url', null, [h('span.u-dim', { text: 'https://' }), h('span.u-sub', { text: 'login.' }), h('span.u-own', { text: 'novabank.com' }), h('span.u-dim', { text: '/help' })]),
           h('div.ll-legend', null, [h('span.u-sub', { text: 'subdomain' }), h('span.u-own', { text: 'the real owner' }), h('span.u-dim', { text: 'path (ignore)' })])
         ]),
         h('div.kbd-hint', { text: 'Keys 1-4 · read domains from the right!' })

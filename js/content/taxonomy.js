@@ -43,7 +43,7 @@
     job: { name: 'Job & Task Scam', icon: '💼' },
     crypto: { name: 'Crypto Investment', icon: '📈' },
     market: { name: 'Marketplace Scam', icon: '🛒' },
-    qr: { name: 'QR Code Scam', icon: '🔳' },
+    qr: { name: 'QR Code Scam', icon: '📷' },
     prize: { name: 'Prize & Giveaway', icon: '🎉' },
     gov: { name: 'Tax, Toll & Government', icon: '🏛️' },
     account: { name: 'Account & Subscription', icon: '🔐' },

@@ -1,17 +1,136 @@
-# 🚩 RedFlag: The Scam Detective Game
+<div align="center">
 
-> **Spot the scam before it spots you.**
+<a href="https://jaineil32624.github.io/RedFlag/"><img src="docs/banner.png" alt="RedFlag - Spot the scam before it spots you. The swipe game that makes you scam-proof." width="100%"></a>
 
-Scams - phishing texts, fake delivery notices, romance scams, fake tech support, job and crypto scams, AI voice-clone *"it's me, Mum"* calls, marketplace overpayments, QR-code tricks - steal **over $1 trillion a year**. RedFlag turns scam-spotting into a fast, addictive, swipeable game so people of every age build the reflex... **and** ships a real, private, on-device tool to check suspicious messages. 🛡️
+<br>
 
-Built to go big on Google Play (Education / Family) and spread through *"send this to your parents"* challenge links. 📲💙
+<a href="https://jaineil32624.github.io/RedFlag/"><img src="https://img.shields.io/badge/%F0%9F%9A%A9%20PLAY%20NOW-free%20in%20your%20browser-ff4d6d?style=for-the-badge" alt="Play now"></a>
+<a href="https://github.com/jaineil32624/RedFlag/releases/latest/download/RedFlag.zip"><img src="https://img.shields.io/badge/%E2%AC%87%20DOWNLOAD%20ZIP-works%20offline-7c5cff?style=for-the-badge" alt="Download ZIP"></a>
+<a href="https://jaineil32624.github.io/RedFlag/"><img src="https://img.shields.io/badge/%F0%9F%93%B2%20INSTALL%20AS%20APP-add%20to%20home%20screen-22c58b?style=for-the-badge" alt="Install as app"></a>
+<a href="https://jaineil32624.github.io/RedFlag/"><img src="https://img.shields.io/badge/%F0%9F%8C%90%20WEBSITE-jaineil32624.github.io-ff7a59?style=for-the-badge" alt="Website"></a>
 
-- ⚡ Pure HTML + CSS + vanilla JS - **no libraries, no CDN, no build step**
-- 📂 Runs straight from `index.html` (yes, even `file://`)
-- 📲 Installable **PWA** with offline support when served over https (e.g. GitHub Pages)
-- 🔒 **Zero data collected** - everything happens on your device
+<sub>📲 <b>Install as app:</b> open the play link on your phone → browser menu → <b>Add to Home Screen</b> / <b>Install app</b>. It then works offline like a native app.</sub>
+
+<br><br>
+
+![Free](https://img.shields.io/badge/price-free-22c58b)
+![Offline](https://img.shields.io/badge/works-offline-59a8ff)
+![No ads](https://img.shields.io/badge/ads-none-7c5cff)
+![No tracking](https://img.shields.io/badge/tracking-none-ff4d6d)
+![MIT](https://img.shields.io/badge/license-MIT-ffb020)
+
+</div>
 
 ---
+
+## 🚩 Scammers are fast. Now you can be faster.
+
+Scams cost people worldwide **hundreds of billions of dollars every year**. It's fake parcel texts, *"Hi Mum, new number"* messages, AI-cloned voices, fake tech support, romance cons, crypto "mentors" and jobs that ask you to pay a fee. Most victims aren't careless. They were rushed.
+
+**RedFlag** trains the one thing that actually stops a scam: **the reflex to pause and spot the red flag.** You swipe through realistic texts, emails, DMs, voicemails and QR codes. Swipe left for scam, right for legit. After every card you see exactly what gave it away. It's quick, it's fun, and it works for everyone from teens to grandparents. 🧠
+
+<div align="center">
+
+<img src="docs/screenshots/swipe.gif" alt="Swiping a scam text left - the SCAM! stamp lands and the red flags are revealed" width="300">
+
+<sub>👆 Swipe it, stamp it, learn why. One card takes about 10 seconds.</sub>
+
+</div>
+
+## 📸 Screenshots
+
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center"><img src="docs/screenshots/a-inbox-rush-swipe.png" width="240" alt="Inbox Rush"><br><b>📱 Inbox Rush</b><br><sub>Swipe ← scam · legit →</sub></td>
+    <td align="center"><img src="docs/screenshots/b-feedback.png" width="240" alt="Feedback with red flags"><br><b>🔍 See every red flag</b><br><sub>Highlighted right in the message</sub></td>
+    <td align="center"><img src="docs/screenshots/c-boss-tech-support.png" width="240" alt="Boss fight: fake tech support"><br><b>🗂️ Boss fights</b><br><sub>Talk your way out of a live scam</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/screenshots/d-check-a-message.png" width="240" alt="Check a Message"><br><b>🛡️ Check a Message</b><br><sub>A real, private scam checker</sub></td>
+    <td align="center"><img src="docs/screenshots/e-lookalike-lightning.png" width="240" alt="Lookalike Lightning"><br><b>⚡ Lookalike Lightning</b><br><sub>Spot the real link in 30s</sub></td>
+    <td align="center"><img src="docs/screenshots/f-profile.png" width="240" alt="Profile with Scam IQ"><br><b>🧠 Scam IQ & ranks</b><br><sub>Rookie → Legend</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/screenshots/f2-badges.png" width="240" alt="Badges"><br><b>🏅 35 badges</b><br><sub>Plus stats for every scam family</sub></td>
+    <td align="center"><img src="docs/screenshots/g-share-card.png" width="240" alt="Share card"><br><b>📣 Share your Scam IQ</b><br><sub>Then challenge your friends</sub></td>
+    <td align="center"><img src="docs/screenshots/home.png" width="240" alt="Home screen"><br><b>🏠 Daily Case & streaks</b><br><sub>New cards every day</sub></td>
+  </tr>
+</table>
+
+<img src="docs/screenshots/desktop.png" alt="RedFlag on desktop" width="85%"><br>
+<sub>💻 Looks great on desktop too.</sub>
+
+</div>
+
+## 🎮 Game modes
+
+| | |
+|---|---|
+| 📱 **Inbox Rush** | The core game. Messages land one at a time: texts, emails, DMs, voicemails, marketplace chats, job offers, crypto pitches and QR posters. You get a timer, a combo multiplier and 3 lives. **Flag Hunt:** tap the suspicious words before you swipe to earn bonus points. |
+| 🗂️ **Case Files** | Six story chapters, each ending in a **boss fight**: a voice-clone *"Mum, I'm in trouble"* call, a fake tech-support call with a rising 😰 pressure meter, a romance scammer over several days, a crypto mentor, a job that needs a fee and an overpaying buyer. |
+| ⚡ **Lookalike Lightning** | You have 30 seconds. Is it `novabank.com`, `n0vabank.com` or `novabank.com.verify-id.xyz`? Pick the real one, fast. |
+| 📅 **Daily Case** | Everyone gets the same 10 cards each day. Keep your 🔥 streak alive. |
+| 🧘 **Practice** | No timer and no lives. Calm learning at your own pace. |
+| 🎯 **Challenge a Friend** | Send someone your exact 10 cards along with your score to beat. |
+
+And it's **not** "everything is a scam". Real fraud alerts, 2FA codes you requested and genuine delivery notices are in the mix too. You learn to tell the difference instead of panicking at every message. ✅
+
+## 🛡️ Check a Message: a real tool
+
+Got a weird text right now? Paste it into **Check a Message**. RedFlag will:
+
+- 🎯 score the risk from **0 to 100**
+- 🖍️ highlight the red flags inside the text: urgency, code requests, gift cards and crypto, "new number" claims, remote-access requests, overpayments and more
+- 🔗 show who **really** owns each link. It catches lookalikes, shortened links, IP addresses, odd domain endings, and tricks like `brand.com.something.xyz` or an `@` hidden in the URL
+- ✅ give you a plain-language **"What to do now"** checklist
+
+It runs **100% on your device**. Nothing is uploaded, and links are never opened. It's an honest heuristic, not a guarantee, so always verify through the company's official app or phone number.
+
+## 👵 Send it to your parents
+
+Scammers target the people we love most. RedFlag is built for exactly that conversation.
+
+- 🎯 **Challenge links:** play 10 cards, then send the link. Your mum, dad or grandpa gets **the exact same 10 cards** and sees your score to beat. No account and no install needed.
+- 👪 **Family mode:** large text, high contrast, 🔊 read-aloud for every message and explanation, relaxed timers or no timer at all, and reduced motion.
+- 💬 **Gentle lessons:** every card explains *why* in one plain sentence. There's no jargon and no shaming.
+
+> 💡 Tip: agree on a **family safe word** today. It beats any AI voice clone. RedFlag's "Hi Mum" boss fight shows why.
+
+## 🚀 Play in 10 seconds
+
+| | |
+|---|---|
+| 🌐 **Online** | Open **[jaineil32624.github.io/RedFlag](https://jaineil32624.github.io/RedFlag/)** and start swiping. |
+| 📲 **Install on your phone** | Open the link on your phone, then choose **Add to Home Screen** (iPhone: Share → Add to Home Screen). It works offline afterwards. |
+| ⬇️ **Download** | Get **[RedFlag.zip](https://github.com/jaineil32624/RedFlag/releases/latest/download/RedFlag.zip)**, unzip it and double-click **`index.html`**. No install and no internet needed. |
+
+## 🔒 Privacy
+
+**RedFlag collects nothing.** There are no accounts, no ads, no analytics and no trackers, and the app makes no server calls at all. Your progress stays in your own browser, and the message checker never sends your text anywhere. Read the [privacy policy](privacy-policy.html).
+
+All brands, people, links and phone numbers in the game are **fictional** and used only for education.
+
+---
+
+<div align="center">
+
+### Ready to get scam-proof? 🚩
+
+<a href="https://jaineil32624.github.io/RedFlag/"><img src="https://img.shields.io/badge/%F0%9F%9A%A9%20PLAY%20NOW-free-ff4d6d?style=for-the-badge" alt="Play now"></a>
+<a href="https://github.com/jaineil32624/RedFlag/releases/latest/download/RedFlag.zip"><img src="https://img.shields.io/badge/%E2%AC%87%20DOWNLOAD%20ZIP-offline-7c5cff?style=for-the-badge" alt="Download ZIP"></a>
+
+**⭐ If RedFlag helped you (or someone you love), please star the repo.** It helps more people find it.
+
+</div>
+
+---
+
+<details>
+<summary><b>🛠️ For developers: features, how to run, architecture, adding scam templates</b></summary>
+
+<br>
 
 ## ✨ Features
 
@@ -123,11 +242,10 @@ Open `js/content/templates-scam.js` (or `templates-legit.js`) and add an object:
 - Lines in `body` are separated by `\n`; a line starting with `me:` becomes your own chat bubble. Optional fields: `addr`, `subject`, `qr`, `ctx` (situational context), `listing: true`.
 - ⚠️ Keep it **fictional and defensive**: only fictional brands/domains from `brands.js`, phone numbers via `{{phone}}` (555-01xx), and never real working links.
 
+
+</details>
+
 ---
-
-## 🔒 Privacy
-
-No accounts, no analytics, no ads, no network calls. Progress lives in your browser's local storage; the message checker never uploads anything. See [`privacy-policy.html`](privacy-policy.html).
 
 ## ⚠️ Disclaimer
 

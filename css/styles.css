@@ -120,7 +120,7 @@ code { font-family: var(--mono); }
 
 .app {
   position: relative; margin: 0 auto; width: 100%; max-width: 480px; height: 100vh; height: 100dvh;
-  background: var(--bg); overflow: hidden; isolation: isolate;
+  background: var(--bg); overflow: hidden; overflow: clip; isolation: isolate;
 }
 @media (min-width: 760px) {
   .app { height: calc(100dvh - 48px); max-height: 940px; margin-top: max(24px, calc((100dvh - 940px) / 2)); border-radius: 36px;

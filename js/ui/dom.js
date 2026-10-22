@@ -61,6 +61,7 @@
     view.appendChild(el);
     view.scrollTop = 0;
     view.setAttribute('data-screen', entry.name);
+    var appEl = U.$('#app'); if (appEl) appEl.scrollTop = 0; // overlays/focus must never shift the shell
     var full = !!entry.def.fullscreen;
     document.documentElement.toggleAttribute('data-fullscreen', full);
     U.$$('#tabbar [data-tab]').forEach(function (b) {
@@ -125,7 +126,7 @@
     overlays.push(entry);
     requestAnimationFrame(function () { wrap.classList.add('in'); });
     var focusable = box.querySelector('.btn-primary') || box.querySelector('button, [href], input, textarea');
-    if (focusable) setTimeout(function () { try { focusable.focus(); } catch (e) { /* ignore */ } }, 50);
+    if (focusable) setTimeout(function () { try { focusable.focus({ preventScroll: true }); } catch (e) { /* ignore */ } }, 50);
     var closed = false;
     function close() {
       if (closed) return; closed = true;

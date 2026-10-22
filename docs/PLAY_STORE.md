@@ -23,7 +23,7 @@ Swipe to spot scams! Train your scam radar and check suspicious texts safely.
 ```
 🚩 Spot the scam before it spots you.
 
-Scams steal over a TRILLION dollars a year - through fake delivery texts, "Hi Mum, new number" messages, AI voice-clone calls, fake tech support, romance scams, crypto "mentors", job offers that need a fee, marketplace overpayments and sneaky QR codes. RedFlag turns scam-spotting into a fast, addictive swipe game so everyone - from teens to grandparents - builds the reflex to stop and think.
+Scams cost people worldwide hundreds of billions of dollars every year - through fake delivery texts, "Hi Mum, new number" messages, AI voice-clone calls, fake tech support, romance scams, crypto "mentors", job offers that need a fee, marketplace overpayments and sneaky QR codes. RedFlag turns scam-spotting into a fast, addictive swipe game so everyone - from teens to grandparents - builds the reflex to stop and think.
 
 📱 INBOX RUSH
 Messages land on a realistic phone screen: texts, emails, DMs, voicemails, marketplace chats, job offers, crypto pitches and QR posters. Swipe LEFT for Scam 🚩 or RIGHT for Legit ✅. Beat the timer, build combos, keep your lives - and see exactly what gave each one away.
@@ -98,7 +98,9 @@ Download RedFlag, sharpen your scam radar, and send it to someone you love. 💙
 
 Privacy policy URL: host `privacy-policy.html` (e.g. `https://<you>.github.io/RedFlag/privacy-policy.html`).
 
-## 🎨 Feature graphic concept (1024 × 500)
+## 🎨 Feature graphic (1024 × 500)
+
+✅ Ready to upload: [`docs/feature-graphic.png`](feature-graphic.png) (exactly 1024×500). Concept behind it:
 
 - **Background:** deep purple → crimson diagonal gradient (`#2a1752 → #5a1645 → #ff4d6d`) with soft blurred glow blobs.
 - **Left:** the app icon (magnifying glass with a red flag) + wordmark **RedFlag** in heavy white type, tagline *"Spot the scam before it spots you."*
